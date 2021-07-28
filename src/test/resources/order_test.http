@@ -1,0 +1,13 @@
+POST http://localhost:8090/shop/orders
+Content-Type: application/json
+
+{
+   "itemId": "nuts",
+   "quantity": 20
+}
+
+###
+GET http://localhost:8090/shop/orders
+Accept: application/json
+
+###
